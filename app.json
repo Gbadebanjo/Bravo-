@@ -18,10 +18,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gbadebanjo.bravo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.182037705565-mc79kjioqpdtmin37mh9ufcgs1t7mloq"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "432ea606-99d9-4528-a4ae-cfb0bfe86283"
+      }
     }
   }
 }
